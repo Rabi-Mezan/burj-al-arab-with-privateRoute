@@ -1,0 +1,40 @@
+.login{
+    display: grid;
+    place-content: center;
+    /* border: 1px solid gray; */
+    margin: 10px 450px;
+    padding: 10px 10px;
+
+}
+
+.login h3,h5{
+    text-align: center;
+}
+
+.login input{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.login button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.login .register{
+    display: grid;
+    place-content: center;
+}
